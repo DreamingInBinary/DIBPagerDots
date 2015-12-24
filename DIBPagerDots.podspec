@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/JordanMorgan10"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/DreamingInBinary/DIBPagerDots.git", :tag => "0.0.1" }
-  s.source_files = 'DIBPagerDots/*.{h,m}'
+  s.source_files = 'DIBPagerDots/DIBPagerDots/*.{h,m}'
   s.framework = "UIKit"
 end

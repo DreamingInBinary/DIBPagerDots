@@ -33,6 +33,12 @@ Drag one source file into your project:
     
     //Animate in - i.e. when you display the scrollview and it's content has been set
     [self.pager animateIn];
+    
+    //When you are done
+    [self.pager animateOut];
+    
+    //You can also dynamically remove indices
+    [self.pager removeIndexAndResize:1];
 
 **4:** On your `UIScrollView`, you'll need to change a few properties like so:
 

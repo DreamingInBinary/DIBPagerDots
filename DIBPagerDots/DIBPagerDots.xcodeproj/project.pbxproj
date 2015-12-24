@@ -13,6 +13,7 @@
 		171F5E261C2C9C24001E937B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171F5E241C2C9C24001E937B /* Main.storyboard */; };
 		171F5E281C2C9C24001E937B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171F5E271C2C9C24001E937B /* Assets.xcassets */; };
 		171F5E2B1C2C9C24001E937B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171F5E291C2C9C24001E937B /* LaunchScreen.storyboard */; };
+		171F5E341C2C9CF9001E937B /* DIBPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 171F5E331C2C9CF9001E937B /* DIBPagination.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		171F5E271C2C9C24001E937B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171F5E2A1C2C9C24001E937B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171F5E2C1C2C9C24001E937B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171F5E321C2C9CF9001E937B /* DIBPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIBPagination.h; sourceTree = "<group>"; };
+		171F5E331C2C9CF9001E937B /* DIBPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIBPagination.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		171F5E1A1C2C9C24001E937B /* DIBPagerDots */ = {
 			isa = PBXGroup;
 			children = (
+				171F5E321C2C9CF9001E937B /* DIBPagination.h */,
+				171F5E331C2C9CF9001E937B /* DIBPagination.m */,
 				171F5E1E1C2C9C24001E937B /* AppDelegate.h */,
 				171F5E1F1C2C9C24001E937B /* AppDelegate.m */,
 				171F5E211C2C9C24001E937B /* ViewController.h */,
@@ -152,6 +157,7 @@
 				171F5E231C2C9C24001E937B /* ViewController.m in Sources */,
 				171F5E201C2C9C24001E937B /* AppDelegate.m in Sources */,
 				171F5E1D1C2C9C24001E937B /* main.m in Sources */,
+				171F5E341C2C9CF9001E937B /* DIBPagination.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
